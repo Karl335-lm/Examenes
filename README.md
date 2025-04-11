@@ -1,13 +1,41 @@
 # Examenes
-Conversion de base decimal a una base distinta
+Conversión de un número de base decimal a una base distinta
+La conversión de un número de base decimal (base 10) a una base distinta (como binaria, octal, hexadecimal o cualquier otra base) s
 ## Descripción
-Este proyecto tiene la finalidad de convertir numeros enteros ya sean positivos o negativos de la base decimal a una base distinta
-El proyecto binario contiene dos clases, y el proyecto Conversioness contiene el JFrame, esto es debido a que se utiliza el .jar del proyecto
+Este proyecto tiene como objetivo la conversión de números enteros, tanto positivos como negativos, desde la base decimal (base 10) a cualquier otra base, como binaria, octal, hexadecimal o bases personalizadas.
+
+El proyecto está dividido en dos módulos principales:
+
+ `Proyecto Binario: ` Contiene dos clases fundamentales que realizan la lógica de conversión de base decimal a otras bases. Estas clases son responsables de realizar las operaciones de conversión y devolver los resultados en el formato adecuado.
+
+ `Proyecto Conversioness: ` Este módulo incluye una interfaz gráfica de usuario (GUI) implementada con JFrame. La interfaz permite a los usuarios introducir un número decimal y seleccionar la base a la que desean convertirlo. La conversión se realiza utilizando el archivo .jar generado por el proyecto binario, que se incorpora al proyecto Conversioness.
+
+Este enfoque modular permite mantener una clara separación entre la lógica de conversión y la interfaz de usuario, lo que facilita el mantenimiento y la expansión del proyecto. Además, el uso del archivo .jar permite reutilizar la funcionalidad del proyecto binario en diferentes entornos y aplicaciones.
+
+
 ## Instrucciones para importar el .jar
-El IDE que utilizamos es Neatbeans, sobre el proyecto binario, doble click derecho
-y puede observar el apartado de clean en build para que se cree una carpeta llama dist.
-en el proyecto Conversioness, en la carpeta de librerias insertamos el .jar que creamos
-previamente.
+Generar el archivo .jar del proyecto:
+
+En tu IDE, asegúrate de haber compilado correctamente el proyecto para generar el archivo .jar.
+
+Importar el archivo .jar:
+
+En NetBeans:
+
+Haz clic derecho sobre el proyecto (por ejemplo, "Conversiones") en el panel de proyectos.
+
+Selecciona la opción Clean and Build. Esto generará una carpeta llamada dist dentro de tu proyecto.
+
+Una vez creado el archivo .jar, dirígete a la carpeta de Librerías en el proyecto.
+
+Haz clic derecho sobre Librerías y selecciona Agregar archivo JAR/Carpeta.
+
+Navega hasta el archivo .jar generado en la carpeta dist y selecciónalo.
+
+Verificación:
+
+Después de importar el archivo .jar, verifica que esté disponible en la lista de dependencias del proyecto y que el código pueda acceder a sus clases.
+
 ## Explicacion del código
 
 Este proyecto está enfocado en el desarrollo de una librería Java personalizada para la conversión de números decimales a diferentes bases numéricas, como binario, octal y vigesimal. La aplicación principal es un JFrame que permite al usuario ingresar un número decimal y ver su equivalencia en diversas bases de manera visual e interactiva.
@@ -208,7 +236,27 @@ Esta parte detecta si el usuario ingresó algo incorrecto (como letras), muestra
 
 
 ## Instalación 
-Para instalar este proyecto, solo necesitas clonar el repositorio y ejecutar el código en tu entorno local
+Para instalar y ejecutar este proyecto en tu entorno local, sigue estos pasos:
+
+Clonar el repositorio:
+
+Abre una terminal (o línea de comandos) en tu computadora.
+
+Usa el siguiente comando para clonar el repositorio a tu máquina local:
+
+```bash
+
+git clone https://github.com/usuario/repositorio.git
+```
+Asegúrate de reemplazar `https://github.com/usuario/repositorio.git` con la URL real del repositorio.
+
+Abrir el proyecto en tu IDE:
+
+Una vez clonado el repositorio, abre tu IDE 
+
+Importa el proyecto recién clonado. La mayoría de los IDEs tienen una opción de "Abrir proyecto" o "Importar proyecto". Sigue las instrucciones del IDE para abrir la carpeta del proyecto.
+
+
 ## Link de Youtube y javadoc
 [docs.zip](https://github.com/user-attachments/files/19678113/docs.zip)
 https://youtu.be/u1QxmP-D1uM
