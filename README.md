@@ -258,5 +258,6 @@ Importa el proyecto recién clonado. La mayoría de los IDEs tienen una opción 
 
 
 ## Link de Youtube y javadoc
-[docs.zip](https://github.com/user-attachments/files/19678113/docs.zip)
-https://youtu.be/u1QxmP-D1uM
+`Carpeta docs en .zip:`[docs.zip](https://github.com/user-attachments/files/19678113/docs.zip)
+
+`Link de YouTube con video sobre el funcionamiento:` https://youtu.be/u1QxmP-D1uM
